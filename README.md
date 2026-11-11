@@ -16,3 +16,4 @@
 git config --global user.name "4515 Буксеев Б.Д."
 git config --global user.email "bbukseev@bk.ru"
 ```
+Настройки отображаются корректно, что видно при вводе команды `git config --global --list`  (рис. 1).
