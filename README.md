@@ -40,10 +40,11 @@ git pull
 Далее работа проводилась локально.
 
 ### 5. История операций
-Была получена история операций (рис. 2-4) при помощи команд
+Была получена история операций (рис. 2-4) и последние изменение (рис. 5) при помощи команд
 ```
 git log master
 git log origin/branch1
+git show
 ```
 
 <p align="center">
@@ -58,3 +59,8 @@ git log origin/branch1
   <img src="images/image_4.png" alt="log branch1"><br>
   Рисунок 4 — История операций branch1
 </p>
+<p align="center">
+  <img src="images/image_5.png" alt="last"><br>
+  Рисунок 5 — Последние изменения
+</p>
+
