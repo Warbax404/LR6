@@ -43,5 +43,5 @@ git pull
 Была получена история операций при помощи команд
 ```
 git log master
-git log branch1
+git log origin/branch1
 ```
