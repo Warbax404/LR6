@@ -144,16 +144,20 @@ git log --pretty=format:"%h | %ad | %an | %s" --date=short
 ```
 В них отсутствуют последний команды, отвечающие за финальную фиксацию из-за того, что это требует бесконечного редактирования файла README, что означает замкнутый круг.
 
+### Выводы
+В ходе лабораторной работы были получены базовые навыки взаимелействия с системой контроля версий Git: настройка пользователя, управление репозиториями, слияние веток, разрешение конфликтов файлов, выполнение и откат коммитов, просмотр истории комманд и коммитов.
+
 ### Лог команд
- 1  git config --global user.name "4515 Буксеев Б.Д."
-    2  git config --global user.email "bbukseev@bk.ru"
-    3  git config --global --list
-    4  git clone
-    5  git clone https://github.com/Warbax404/LR6.git
-    6  cd LR6
-    7  git pull
-    8  git log master
-    9  git log master
+```
+   1  git config --global user.name "4515 Буксеев Б.Д."
+   2  git config --global user.email "bbukseev@bk.ru"
+   3  git config --global --list
+   4  git clone
+   5  git clone https://github.com/Warbax404/LR6.git
+   6  cd LR6
+   7  git pull
+   8  git log master
+   9  git log master
    10  cd LR6
    11  git log master
    12  cd LR6
@@ -218,9 +222,11 @@ git log --pretty=format:"%h | %ad | %an | %s" --date=short
    71  git add .
    72  git commit -m "Update README"
    73  history
+```
 
 ### История операций
 
+```
 47d0a78 | 2026-11-11 | 4515 Буксеев Б.Д. | Update README
 71e6b9e | 2026-11-11 | 4515 Буксеев Б.Д. | Update README
 39e7f77 | 2026-11-11 | 4515 Буксеев Б.Д. | Update README
@@ -267,5 +273,5 @@ f9942b9 | 2026-11-11 | Warbax404 | Update README.md
 0f9f50d | 2020-11-21 | Kurtyanik | Заполнил файл
 c08a654 | 2020-11-21 | Kurtyanik | Файл создан пустым
 3c6e913 | 2020-11-21 | Kurtyanik | Initial commit
-
+```
 
