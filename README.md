@@ -40,8 +40,21 @@ git pull
 Далее работа проводилась локально.
 
 ### 5. История операций
-Была получена история операций при помощи команд
+Была получена история операций (рис. 2-4) при помощи команд
 ```
 git log master
 git log origin/branch1
 ```
+
+<p align="center">
+  <img src="images/image_1.png" alt="config"><br>
+  Рисунок 2 — История операций master
+</p>
+<p align="center">
+  <img src="images/image_1.png" alt="config"><br>
+  Рисунок 3 — История операций master
+</p>
+<p align="center">
+  <img src="images/image_1.png" alt="config"><br>
+  Рисунок 4 — История операций branch1
+</p>
