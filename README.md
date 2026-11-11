@@ -126,3 +126,11 @@ git reset --hard HEAD~1
   <img src="images/image_9.png" alt="undo"><br>
   Рисунок 9 — Откат коммита
 </p>
+
+Далее была создана ветка для отчёта `report`. Изначально оформление отчёта было ошибочно начато в ветке `master`. Для переноса файлов в нужную ветку было выполнено слияние.
+```
+git checkout -b report
+git checkout master -- README.md images
+git add .
+git commit -m "Update README"
+```
