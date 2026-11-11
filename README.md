@@ -102,3 +102,4 @@ git add mergefile.txt
 git commit -m "Конфликт разрешён"
 git push origin master
 ```
+После успешного слияния ветка branch1 была удалена.
