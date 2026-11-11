@@ -75,3 +75,13 @@ git checkout master
 git merge branch1
 ```
 Однако, в терминале появился конфликт (рис. 6).
+<p align="center">
+  <img src="images/image_6.png" alt="conflict"><br>
+  Рисунок 6 — Конфликт
+</p>
+
+Чтобы узнать, в каком файле конфликт, была введена команда
+```
+git status
+```
+В результате конфликт был найден в mergefile.txt (рис. 7).
