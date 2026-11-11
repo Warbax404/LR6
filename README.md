@@ -22,3 +22,81 @@ git config --global user.email "bbukseev@bk.ru"
   <img src="images/image_1.png" alt="config"><br>
   Рисунок 1 — Проверка корректности настроек
 </p>
+
+### 3. Копирование репозитория
+Форк был скопирован на компьютер, установлена папка репозитория при помощи команд:
+```
+git clone https://github.com/Warbax404/LR6.git
+cd LR6
+```
+
+### 4. Создание файла
+Создан файл `New_File` и сохранён в главную ветку.
+Далее изменения были подтянуты в локальный репозиторий при помощи
+```
+git pull
+```
+
+Далее работа проводилась локально.
+
+### 5. История операций
+Была получена история операций (рис. 2-4) и последние изменение (рис. 5) при помощи команд
+```
+git log master
+git log origin/branch1
+git show
+```
+
+<p align="center">
+  <img src="images/image_2.png" alt="log master"><br>
+  Рисунок 2 — История операций master
+</p>
+<p align="center">
+  <img src="images/image_3.png" alt="log master"><br>
+  Рисунок 3 — История операций master
+</p>
+<p align="center">
+  <img src="images/image_4.png" alt="log branch1"><br>
+  Рисунок 4 — История операций branch1
+</p>
+<p align="center">
+  <img src="images/image_5.png" alt="last"><br>
+  Рисунок 5 — Последние изменения
+</p>
+
+### 5. Слияние веток
+Локально была установлена ветка branch1, переключение обратно на master:
+```
+git checkout branch1
+git checkout master
+```
+Далее была выполнена попытка слияния веток при помощи
+```
+git merge branch1
+```
+Однако, в терминале появился конфликт (рис. 6).
+<p align="center">
+  <img src="images/image_6.png" alt="conflict"><br>
+  Рисунок 6 — Конфликт
+</p>
+
+Чтобы узнать, в каком файле конфликт, была введена команда
+```
+git status
+```
+В результате конфликт был найден в mergefile.txt (рис. 7).
+<p align="center">
+  <img src="images/image_7.png" alt="found"><br>
+  Рисунок 7 — Найден проблемный файл
+</p>
+
+Далее в приложении Блокнот были удалены маркеры слияния и оставлена информация из обоих файлов (рис. 8).
+<p align="center">
+  <img src="images/image_8.png" alt="peace"><br>
+  Рисунок 8 — Разрешение конфликта
+</p>
+
+Затем изменения были зафиксированы и отправлены на GitHub при помощи команд:
+```
+
+```
