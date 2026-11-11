@@ -85,3 +85,7 @@ git merge branch1
 git status
 ```
 В результате конфликт был найден в mergefile.txt (рис. 7).
+<p align="center">
+  <img src="images/image_7.png" alt="found"><br>
+  Рисунок 6 — Найден проблемный файл
+</p>
