@@ -47,14 +47,14 @@ git log origin/branch1
 ```
 
 <p align="center">
-  <img src="images/image_1.png" alt="config"><br>
+  <img src="images/image_2.png" alt="log master"><br>
   Рисунок 2 — История операций master
 </p>
 <p align="center">
-  <img src="images/image_1.png" alt="config"><br>
+  <img src="images/image_3.png" alt="log master"><br>
   Рисунок 3 — История операций master
 </p>
 <p align="center">
-  <img src="images/image_1.png" alt="config"><br>
+  <img src="images/image_4.png" alt="log branch1"><br>
   Рисунок 4 — История операций branch1
 </p>
